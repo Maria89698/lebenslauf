@@ -1,10 +1,14 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Urbanist', sans-serif; */
+body {
+    background-color: #FFFFF9;
+}
 
 .container {
     display: flex;
-    width: 100%;
+    width: auto;
+    justify-content: space-between;
 }
 
 
@@ -16,16 +20,19 @@ font-family: 'Urbanist', sans-serif; */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-};
+}
 
+.header-text:nth-of-type(2) {
+    margin-left: auto;
+}
 
 /* about me */
 .about_me {
-    float: right;
-};
+    margin-left: auto;
+}
 
 .title {
-    color: red;
+    color: black;
     text-align: right;
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
@@ -33,7 +40,7 @@ font-family: 'Urbanist', sans-serif; */
     font-weight: 400;
     line-height: 35px;
     text-transform: uppercase;
-};
+}
 
 .subtitle {
     color: #000;
@@ -44,7 +51,7 @@ font-family: 'Urbanist', sans-serif; */
     font-weight: 400;
     line-height: 35px;
     text-transform: uppercase;
-};
+}
 
 .goal-text {
     color: #000;
@@ -53,40 +60,23 @@ font-family: 'Urbanist', sans-serif; */
     font-style: normal;
     font-weight: 300;
     line-height: 18px;
-};
+}
 
 /* main */
 .vertical-line {
-    width: 5px;
-    height: 404px;
+    width: 1px;
     background-color: black;
-    margin: 0 auto;
-};
-
-.ed_and_qualities{
-    float: right;
-};
+    /* margin: 0 auto; */
+}
 
 .main-subtitle {
     color: #000;
-    text-align: right;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
-    text-transform: uppercase;
-};
-
-.main-subtitle-normal {
-    color: #000;
-    text-align: right;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-};
+}
 
 .main-text {
     color: #000;
@@ -95,16 +85,14 @@ font-family: 'Urbanist', sans-serif; */
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-};
+}
 
-/* .main-text:nth-of-type(2) {
-    color: #000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-}; */
+.ed_and_qualities {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
 
 .footer-text {
     color: #000;
@@ -113,5 +101,5 @@ font-family: 'Urbanist', sans-serif; */
     font-style: normal;
     font-weight: 400;
     line-height: 12px;
-};
+}
 
